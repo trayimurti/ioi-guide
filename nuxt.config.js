@@ -59,6 +59,31 @@ export default {
     }
   },
 
+  config: {
+    apiKey: "AIzaSyBsPCKTedcM2_6I7PpFvgPYqHDcq6MzUoU",
+    authDomain: "coding-3574a.firebaseapp.com",
+    databaseURL: "https://coding-3574a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "coding-3574a",
+    storageBucket: "coding-3574a.appspot.com",
+    messagingSenderId: "2471777939",
+    appId: "1:2471777939:web:ba1980746110c2dfd65f66",
+    measurementId: "G-H712SYL4D7"
+  },
+
+  services: {
+    auth: true,
+    firestore: true,
+    functions: true,
+    storage: true,
+    database: true,
+    messaging: true,
+    performance: true,
+    analytics: true,
+    remoteConfig: true
+  },
+
+  onFirebaseHosting: true,
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
